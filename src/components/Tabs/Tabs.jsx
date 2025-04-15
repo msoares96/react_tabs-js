@@ -1,5 +1,5 @@
 export function getTabById(tabs, id) {
-  return tabs.find(tab => tab.id === id || null);
+  return tabs.find(tab => tab.id === id);
 }
 
 export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
